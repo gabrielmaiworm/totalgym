@@ -22,6 +22,9 @@ module.exports = {
       subtitle: '30px',
       base: '26px',
     },
+    fontFamily: {
+      sans: ['Montserrat', 'sans-serif'],
+    },
   },
   plugins: [],
 };

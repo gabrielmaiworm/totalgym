@@ -12,7 +12,7 @@ export default function App() {
             O Gympass oferece <br /> descontos em academias, <br /> acessível a
             todos!
           </p>
-          <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 mt-10">
+          <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 mt-10 hover:bg-orange-100">
             Economize agora!
           </button>
         </div>
@@ -52,20 +52,96 @@ export default function App() {
         </p>
       </div>
       <div className="p-32 flex justify-around">
-        <img src="/src/assets/musculacao.svg" alt="" />
-        <img src="/src/assets/crossfit.svg" alt="" />
-        <img src="/src/assets/pilates.svg" alt="" />
+        <img
+          src="/src/assets/musculacao.svg"
+          alt=""
+          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200"
+        />
+        <img
+          src="/src/assets/crossfit.svg"
+          alt=""
+          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200"
+        />
+        <img
+          src="/src/assets/pilates.svg"
+          alt=""
+          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200"
+        />
       </div>
       <div className="bg-orange-500 py-10">
-        <p className="text-white text-center text-subtitle font-semibold">
+        <p className="text-white text-center text-subtitle font-semibold leading-snug">
           MALHAR EM ESPAÇOS INCRÍVEIS E SUPER <br /> EQUIPADOS PAGANDO MUITO
           POUCO
         </p>
       </div>
-      <div>
-        <h1 className="text-white">
-          Acesso a aplicativos exclusivos que te auxiliam em uma vida saudável;
-          Planos super flexíveis; Melhor custo benefício.
+      <div className="p-32 flex justify-around">
+        <ul
+          role="list"
+          className="marker:text-orange-200 marker:text-base list-disc list-inside pl-6 space-y-2 text-white"
+        >
+          <li>
+            Acesso a aplicativos exclusivos que te <br />{" "}
+            <span className="pl-9">auxiliam em uma vida saudável;</span>
+          </li>
+          <li>Planos super flexíveis;</li>
+          <li>Melhor custo benefício.</li>
+        </ul>
+        <div>
+          <p className="text-white font-semibold text-base">
+            Não perca essa chance e <br /> entre em contato:
+          </p>
+          <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 mt-8 hover:bg-orange-100">
+            Tenha sua conta AGORA!
+          </button>
+        </div>
+      </div>
+      <div className="p-32">
+        <h1 className="text-title font-bold text-white leading-tight">
+          Como funciona <br />o{" "}
+          <span className="text-orange-200"> TotalGym</span>
+        </h1>
+        <div className="flex justify-around">
+          <div>
+            <img src="/src/assets/circle_1.svg" alt="" />
+            <p className="text-base text-white leading-tight text-center">
+              Entre em contato <br /> no nosso <br /> WhatsApp
+            </p>
+          </div>
+          <div>
+            <img src="/src/assets/circle_2.svg" alt="" />
+            <p className="text-base text-white leading-tight text-center">
+              Faça o pagamento <br /> após validar seu <br /> acesso
+            </p>
+          </div>
+          <div>
+            <img src="/src/assets/circle_3.svg" alt="" />
+            <p className="text-base text-white leading-tight text-center">
+              Forneça os <br /> dados e{" "}
+              <span className="font-semibold">
+                tenha
+                <br /> acesso{" "}
+              </span>{" "}
+              a sua <br /> nova conta
+            </p>
+          </div>
+          <div>
+            <img src="/src/assets/circle_4.svg" alt="" />
+            <p className="text-base text-white leading-tight text-center">
+              Prontinho! <br /> aproveite seus <br /> descontos com o <br />{" "}
+              <span className="text-orange-200 font-semibold">gympass</span>
+            </p>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 my-20 hover:bg-orange-100">
+            Tenho interesse
+          </button>
+        </div>
+      </div>
+      <div className="px-32">
+        <h1 className="text-title font-bold text-white leading-tight">
+          Planos <br />
+          <span className="text-orange-200"> Gympass</span>
         </h1>
       </div>
     </div>

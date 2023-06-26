@@ -1,3 +1,7 @@
+import CardsPlansGympass from "../src/components/CardsPlansGympass";
+import CardsPlansTotalpass from "../src/components/CardsPlansTotalpass";
+import CardsClients from "./components/CardsClients/index";
+
 export default function App() {
   return (
     <div className="bg-black">
@@ -77,11 +81,11 @@ export default function App() {
       <div className="p-32 flex justify-around">
         <ul
           role="list"
-          className="marker:text-orange-200 marker:text-base list-disc list-inside pl-6 space-y-2 text-white"
+          className="marker:text-orange-200 marker:text-subtitle text-base list-disc list-inside pl-6 space-y-2 text-white"
         >
           <li>
             Acesso a aplicativos exclusivos que te <br />{" "}
-            <span className="pl-9">auxiliam em uma vida saudável;</span>
+            <span className="pl-10">auxiliam em uma vida saudável;</span>
           </li>
           <li>Planos super flexíveis;</li>
           <li>Melhor custo benefício.</li>
@@ -128,7 +132,7 @@ export default function App() {
             <img src="/src/assets/circle_4.svg" alt="" />
             <p className="text-base text-white leading-tight text-center">
               Prontinho! <br /> aproveite seus <br /> descontos com o <br />{" "}
-              <span className="text-orange-200 font-semibold">gympass</span>
+              <span className="text-orange-200 font-semibold">Gympass</span>
             </p>
           </div>
         </div>
@@ -143,6 +147,30 @@ export default function App() {
           Planos <br />
           <span className="text-orange-200"> Gympass</span>
         </h1>
+        <p className="uppercase text-white text-base pt-5 font-medium">
+          a partir de:
+        </p>
+        <CardsPlansGympass />
+      </div>
+      <div className="p-32">
+        <h1 className="text-title font-bold text-white leading-tight">
+          Planos <br />
+          <span className="text-orange-200"> Totalpass</span>
+        </h1>
+        <CardsPlansTotalpass />
+      </div>
+      <div className="px-32">
+        <h1 className="text-title font-bold text-white leading-tight">
+          Esses são alguns dos mais de{" "}
+          <span className="text-orange-200">+1000 clientes</span> <br /> que
+          confiaram no <span className="text-orange-200">TotalGym</span>
+        </h1>
+        <CardsClients />
+        <div className="flex justify-center">
+          <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 mb-20 hover:bg-orange-100">
+            EU QUERO TER DESCONTOS!!
+          </button>
+        </div>
       </div>
     </div>
   );

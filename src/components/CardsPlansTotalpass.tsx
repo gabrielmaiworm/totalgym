@@ -7,13 +7,21 @@ export default function CardsPlansTotalpass() {
             Mais Popular
           </p>
         </div>
-        <img
-          src="/src/assets/card_totalpass.svg"
-          alt=""
-          className="rounded-t-md w-full"
-        />
-        <div className="flex">
-          <div className="mx-10">
+
+        <div className="bg-[url('/src/assets/totalpass.svg')] bg-cover bg-top px-20 py-10 flex justify-between items-center">
+          <div>
+            <p className="text-white text-base font-semibold">TOTALPASS</p>
+            <p className="text-white text-title font-bold">R$150,00</p>
+          </div>
+          <div>
+            <p className="text-white text-base font-semibold">
+              Valores das mensalidades <br /> dentro do aplicativo:
+            </p>
+          </div>
+        </div>
+
+        <div className="flex justify-between px-20">
+          <div>
             <p className="text-white text-base font-semibold leading-loose py-8 px-2">
               Planos a partir de R$ 39,90 <br />
               Até 3 dependentes
@@ -22,8 +30,8 @@ export default function CardsPlansTotalpass() {
               Tenha sua conta AGORA!
             </button>
           </div>
-          <div className="flex justify-end w-2/5">
-            <p className="text-white text-base font-medium py-8 px-2">
+          <div>
+            <p className="text-white text-base font-medium py-8 pr-20">
               TPGO: R$ 39,90 <br /> TP1: R$ 59,90 <br /> TP1: R$ 89,90 <br />{" "}
               TP2: R$ 129,90 <br /> TP3: R$ 189,90 <br /> TP4: R$ 279,90
             </p>

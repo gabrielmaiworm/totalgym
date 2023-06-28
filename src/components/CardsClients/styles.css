@@ -2,3 +2,18 @@
   width: 100%;
   height: 100%;
 }
+
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 1px #fff;
+}
+
+.fQGRjO {
+  background-color: #5b5b5b !important;
+  box-shadow: 0 0 1px 3px #5b5b5b !important;
+}
+
+.cjxpzN {
+  background-color: #ff5a49 !important;
+  box-shadow: 0 0 1px 3px #ff5a49 !important;
+}

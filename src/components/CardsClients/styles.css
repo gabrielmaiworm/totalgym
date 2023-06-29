@@ -17,3 +17,7 @@
   background-color: #ff5a49 !important;
   box-shadow: 0 0 1px 3px #ff5a49 !important;
 }
+.cvwPPt:hover:enabled,
+.cvwPPt:focus:enabled {
+  background-color: #ff5a49 !important;
+}

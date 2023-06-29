@@ -4,7 +4,7 @@ import CardsClients from "./components/CardsClients/index";
 
 export default function App() {
   return (
-    <div className="bg-black">
+    <div className="bg-[url('/src/assets/fundo.svg')] bg-cover bg-top">
       <div className="bg-[url('/src/assets/banner.svg')] bg-cover bg-top">
         <div className="container p-32">
           <h1 className="text-title font-bold text-white leading-tight">

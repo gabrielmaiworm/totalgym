@@ -72,12 +72,12 @@ export default function App() {
         <img
           src="/src/assets/crossfit.svg"
           alt=""
-          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200"
+          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200 pt-4 lg:pt-0"
         />
         <img
           src="/src/assets/pilates.svg"
           alt=""
-          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200 pt-3 lg:pt-0"
+          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200 pt-8 lg:pt-0"
         />
       </div>
 

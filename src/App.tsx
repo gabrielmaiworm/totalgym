@@ -21,7 +21,7 @@ export default function App() {
           </button>
         </div>
       </div>
-      <div className="p-32 flex justify-around">
+      <div className="py-16 px-32 flex justify-between">
         <h1 className="text-title font-bold text-white leading-tight">
           <span className="text-orange-200">Descubra o</span> <br />{" "}
           <span className="text-orange-200">segredo</span> para <br />{" "}
@@ -40,7 +40,7 @@ export default function App() {
           empresa parceira.
         </p>
       </div>
-      <div className="p-32 flex justify-around">
+      <div className="py-16 px-32 flex justify-between">
         <h1 className="text-title font-bold text-white leading-tight">
           Quais são as <br />
           <span className="text-orange-200">
@@ -55,7 +55,7 @@ export default function App() {
           </span>
         </p>
       </div>
-      <div className="p-32 flex justify-around">
+      <div className="p-16 flex justify-around">
         <img
           src="/src/assets/musculacao.svg"
           alt=""
@@ -72,13 +72,13 @@ export default function App() {
           className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200"
         />
       </div>
-      <div className="bg-orange-500 py-10">
+      <div className="bg-orange-500 py-10 my-16">
         <p className="text-white text-center text-subtitle font-semibold leading-snug">
           MALHAR EM ESPAÇOS INCRÍVEIS E SUPER <br /> EQUIPADOS PAGANDO MUITO
           POUCO
         </p>
       </div>
-      <div className="p-32 flex justify-around">
+      <div className="p-16 flex justify-around">
         <ul
           role="list"
           className="marker:text-orange-200 marker:text-subtitle text-base list-disc list-inside pl-6 space-y-2 text-white"
@@ -99,7 +99,7 @@ export default function App() {
           </button>
         </div>
       </div>
-      <div className="p-32">
+      <div className="py-16 px-32">
         <h1 className="text-title font-bold text-white leading-tight">
           Como funciona <br />o{" "}
           <span className="text-orange-200"> TotalGym</span>
@@ -137,12 +137,12 @@ export default function App() {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 my-20 hover:bg-orange-100">
+          <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 mt-16 hover:bg-orange-100">
             Tenho interesse
           </button>
         </div>
       </div>
-      <div className="px-32">
+      <div className="py-16 px-32">
         <h1 className="text-title font-bold text-white leading-tight">
           Planos <br />
           <span className="text-orange-200"> Gympass</span>
@@ -152,14 +152,14 @@ export default function App() {
         </p>
         <CardsPlansGympass />
       </div>
-      <div className="p-32">
+      <div className="py-16 px-32">
         <h1 className="text-title font-bold text-white leading-tight">
           Planos <br />
           <span className="text-orange-200"> Totalpass</span>
         </h1>
         <CardsPlansTotalpass />
       </div>
-      <div className="px-32">
+      <div className="py-16 px-32">
         <h1 className="text-title font-bold text-white leading-tight">
           Esses são alguns dos mais de{" "}
           <span className="text-orange-200">+1000 clientes</span> <br /> que
@@ -167,7 +167,7 @@ export default function App() {
         </h1>
         <CardsClients />
         <div className="flex justify-center">
-          <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 mb-40 hover:bg-orange-100">
+          <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 mb-32 hover:bg-orange-100">
             EU QUERO TER DESCONTOS!!
           </button>
         </div>

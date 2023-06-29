@@ -5,9 +5,10 @@ import CardsClients from "./components/CardsClients/index";
 export default function App() {
   return (
     <div className="bg-[url('/src/assets/fundo.svg')] bg-cover bg-top">
+      {/* BANNER */}
       <div className="bg-[url('/src/assets/banner.svg')] bg-cover bg-top">
-        <div className="container p-32">
-          <h1 className="text-title font-bold text-white leading-tight">
+        <div className="container px-4 py-20 sm:p-32">
+          <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight">
             <span className="text-orange-200">Economize</span> <br /> enquanto{" "}
             <br /> mantém a <br />{" "}
             <span className="text-orange-200">forma</span>
@@ -21,8 +22,10 @@ export default function App() {
           </button>
         </div>
       </div>
-      <div className="py-16 px-32 flex justify-between">
-        <h1 className="text-title font-bold text-white leading-tight">
+
+      {/* DESCUBRA */}
+      <div className="py-16 px-4 sm:px-32 flex justify-between sm:items-center flex-col md:flex-row">
+        <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight pr-5">
           <span className="text-orange-200">Descubra o</span> <br />{" "}
           <span className="text-orange-200">segredo</span> para <br />{" "}
           aproveitar as <br /> melhores <br /> academias sem <br />{" "}
@@ -40,8 +43,10 @@ export default function App() {
           empresa parceira.
         </p>
       </div>
-      <div className="py-16 px-32 flex justify-between">
-        <h1 className="text-title font-bold text-white leading-tight">
+
+      {/* QUAIS SÃO */}
+      <div className="py-16 px-4 sm:px-32 flex justify-between sm:items-center flex-col md:flex-row">
+        <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight pr-5">
           Quais são as <br />
           <span className="text-orange-200">
             vantagens <br /> exclusivas?
@@ -55,12 +60,15 @@ export default function App() {
           </span>
         </p>
       </div>
-      <div className="p-16 flex justify-around">
+
+      {/* CARDS */}
+      <div className="p-10 sm:p-16 flex justify-around items-center flex-col lg:flex-row">
         <img
           src="/src/assets/musculacao.svg"
           alt=""
           className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200"
         />
+
         <img
           src="/src/assets/crossfit.svg"
           alt=""
@@ -69,29 +77,33 @@ export default function App() {
         <img
           src="/src/assets/pilates.svg"
           alt=""
-          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200"
+          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200 pt-6 lg:pt-0"
         />
       </div>
-      <div className="bg-orange-500 py-10 my-16">
+
+      {/* MALHAR  */}
+      <div className="bg-orange-500 py-10 px-5 my-16">
         <p className="text-white text-center text-subtitle font-semibold leading-snug">
           MALHAR EM ESPAÇOS INCRÍVEIS E SUPER <br /> EQUIPADOS PAGANDO MUITO
           POUCO
         </p>
       </div>
-      <div className="p-16 flex justify-around">
+
+      {/* TÓPICOS */}
+      <div className="p-4 sm:p-16 flex justify-around items-center flex-col lg:flex-row">
         <ul
           role="list"
-          className="marker:text-orange-200 marker:text-subtitle text-base list-disc list-inside pl-6 space-y-2 text-white"
+          className="marker:text-orange-200 marker:text-subtitle text-base list-disc list-inside px-1 space-y-2 text-white"
         >
           <li>
-            Acesso a aplicativos exclusivos que te <br />{" "}
-            <span className="pl-10">auxiliam em uma vida saudável;</span>
+            Acesso a aplicativos exclusivos que te <br /> auxiliam em uma vida
+            saudável;
           </li>
           <li>Planos super flexíveis;</li>
           <li>Melhor custo benefício.</li>
         </ul>
         <div>
-          <p className="text-white font-semibold text-base">
+          <p className="text-white font-semibold text-base pt-6 lg:pt-0">
             Não perca essa chance e <br /> entre em contato:
           </p>
           <button className="bg-orange-500 shadow-lg shadow-orange-100 text-white font-semibold text-base p-5 mt-8 hover:bg-orange-100">
@@ -99,12 +111,14 @@ export default function App() {
           </button>
         </div>
       </div>
-      <div className="py-16 px-32">
-        <h1 className="text-title font-bold text-white leading-tight">
+
+      {/* COMO FUNCIONA  */}
+      <div className="px-4 py-20 sm:py-16 sm:px-32">
+        <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight">
           Como funciona <br />o{" "}
           <span className="text-orange-200"> TotalGym</span>
         </h1>
-        <div className="flex justify-around">
+        <div className="flex justify-around items-center flex-col lg:flex-row">
           <div>
             <img src="/src/assets/circle_1.svg" alt="" />
             <p className="text-base text-white leading-tight text-center">
@@ -142,25 +156,31 @@ export default function App() {
           </button>
         </div>
       </div>
-      <div className="py-16 px-32">
-        <h1 className="text-title font-bold text-white leading-tight">
+
+      {/* GYMPASS  */}
+      <div className="px-4 py-20 sm:py-16 sm:px-32">
+        <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight">
           Planos <br />
           <span className="text-orange-200"> Gympass</span>
         </h1>
         <p className="uppercase text-white text-base pt-5 font-medium">
           a partir de:
         </p>
-        <CardsPlansGympass />
+        {/* <CardsPlansGympass /> */}
       </div>
-      <div className="py-16 px-32">
-        <h1 className="text-title font-bold text-white leading-tight">
+
+      {/* TOTALPASS  */}
+      <div className="py-16 px-4 sm:px-32">
+        <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight">
           Planos <br />
           <span className="text-orange-200"> Totalpass</span>
         </h1>
         <CardsPlansTotalpass />
       </div>
-      <div className="py-16 px-32">
-        <h1 className="text-title font-bold text-white leading-tight">
+
+      {/* CARROSSEL  */}
+      <div className="px-4 py-20 sm:py-16 sm:px-32">
+        <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight">
           Esses são alguns dos mais de{" "}
           <span className="text-orange-200">+1000 clientes</span> <br /> que
           confiaram no <span className="text-orange-200">TotalGym</span>

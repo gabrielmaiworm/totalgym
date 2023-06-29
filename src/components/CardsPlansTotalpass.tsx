@@ -8,19 +8,21 @@ export default function CardsPlansTotalpass() {
           </p>
         </div>
 
-        <div className="bg-[url('/src/assets/totalpass.svg')] bg-cover bg-top px-20 py-10 flex justify-between items-center">
-          <div>
+        <div className="bg-[url('/src/assets/totalpass.svg')] bg-cover bg-top px-20 py-10 flex justify-between items-center flex-col lg:flex-row">
+          <div className="text-center lg:text-left">
             <p className="text-white text-base font-semibold">TOTALPASS</p>
-            <p className="text-white text-title font-bold">R$150,00</p>
+            <p className="text-white text-subtitle sm:text-title font-bold">
+              R$150,00
+            </p>
           </div>
           <div>
-            <p className="text-white text-base font-semibold">
+            <p className="text-white text-base font-semibold text-center lg:text-right">
               Valores das mensalidades <br /> dentro do aplicativo:
             </p>
           </div>
         </div>
 
-        <div className="flex justify-between px-20">
+        <div className="flex justify-between px-10 sm:px-20 items-center flex-col lg:flex-row text-center lg:text-left">
           <div>
             <p className="text-white text-base font-semibold leading-loose py-8 px-2">
               Planos a partir de R$ 39,90 <br />
@@ -31,7 +33,7 @@ export default function CardsPlansTotalpass() {
             </button>
           </div>
           <div>
-            <p className="text-white text-base font-medium py-8 pr-20">
+            <p className="text-white text-base font-medium py-8">
               TPGO: R$ 39,90 <br /> TP1: R$ 59,90 <br /> TP1: R$ 89,90 <br />{" "}
               TP2: R$ 129,90 <br /> TP3: R$ 189,90 <br /> TP4: R$ 279,90
             </p>

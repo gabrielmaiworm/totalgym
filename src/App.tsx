@@ -24,14 +24,14 @@ export default function App() {
       </div>
 
       {/* DESCUBRA */}
-      <div className="py-16 px-4 sm:px-32 flex justify-between sm:items-center flex-col md:flex-row">
+      <div className="py-16 px-4 sm:px-32 2xl:px-64 flex justify-between flex-col md:flex-row">
         <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight pr-5">
           <span className="text-orange-200">Descubra o</span> <br />{" "}
           <span className="text-orange-200">segredo</span> para <br />{" "}
           aproveitar as <br /> melhores <br /> academias sem <br />{" "}
           <span className="text-orange-200">PREJUÍZOS!</span>
         </h1>
-        <p className="text-base text-white mt-10">
+        <p className="text-base text-white mt-10 md:mt-0">
           Você está cansado de se comprometer com <br /> planos de academias que
           o prendem por <br />{" "}
           <span className="text-orange-200 font-semibold">
@@ -45,14 +45,14 @@ export default function App() {
       </div>
 
       {/* QUAIS SÃO */}
-      <div className="py-16 px-4 sm:px-32 flex justify-between sm:items-center flex-col md:flex-row">
+      <div className="py-16 px-4 sm:px-32 2xl:px-64 flex justify-between flex-col md:flex-row">
         <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight pr-5">
           Quais são as <br />
           <span className="text-orange-200">
             vantagens <br /> exclusivas?
           </span>
         </h1>
-        <p className="text-base text-white mt-10">
+        <p className="text-base text-white mt-10 md:mt-0">
           Inclui várias modalidades como{" "}
           <span className="text-white font-semibold">
             Yoga, <br /> Musculação, Crossfit, Funcional, Pilates e <br /> até
@@ -77,7 +77,7 @@ export default function App() {
         <img
           src="/src/assets/pilates.svg"
           alt=""
-          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200 pt-6 lg:pt-0"
+          className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-100 duration-200 pt-3 lg:pt-0"
         />
       </div>
 
@@ -118,8 +118,8 @@ export default function App() {
           Como funciona <br />o{" "}
           <span className="text-orange-200"> TotalGym</span>
         </h1>
-        <div className="flex justify-around items-center flex-col lg:flex-row">
-          <div>
+        <div className="flex justify-around items-center lg:items-start flex-col lg:flex-row">
+          <div className="flex-start">
             <img src="/src/assets/circle_1.svg" alt="" />
             <p className="text-base text-white leading-tight text-center">
               Entre em contato <br /> no nosso <br /> WhatsApp
@@ -166,7 +166,7 @@ export default function App() {
         <p className="uppercase text-white text-base pt-5 font-medium">
           a partir de:
         </p>
-        {/* <CardsPlansGympass /> */}
+        <CardsPlansGympass />
       </div>
 
       {/* TOTALPASS  */}

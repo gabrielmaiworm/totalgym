@@ -11,24 +11,25 @@ const breakPoints = [
 export default function CardsClients() {
   return (
     <div className="carousel-wrapper py-20">
-      <Carousel breakPoints={breakPoints} showArrows={false}>
+      <Carousel
+        breakPoints={breakPoints}
+        enableSwipe={false}
+        showArrows={false}
+      >
         <Item>
-          <img src="/src/assets/print_2.svg" alt="" />
+          <img src="/src/assets/print_1.png" alt="" />
         </Item>
         <Item>
-          <img src="/src/assets/print_2.svg" alt="" />
+          <img src="/src/assets/print_2.png" alt="" />
         </Item>
         <Item>
-          <img src="/src/assets/print_2.svg" alt="" />
+          <img src="/src/assets/print_3.png" alt="" />
         </Item>
         <Item>
-          <img src="/src/assets/print_2.svg" alt="" />
+          <img src="/src/assets/print_4.png" alt="" />
         </Item>
         <Item>
-          <img src="/src/assets/print_2.svg" alt="" />
-        </Item>
-        <Item>
-          <img src="/src/assets/print_2.svg" alt="" />
+          <img src="/src/assets/print_5.png" alt="" />
         </Item>
       </Carousel>
     </div>

@@ -24,7 +24,7 @@ export default function App() {
       </div>
 
       {/* DESCUBRA */}
-      <div className="py-16 px-4 sm:px-32 2xl:px-64 flex justify-between flex-col md:flex-row">
+      <div className="py-16 px-4 sm:px-32 2xl:px-50 flex justify-between flex-col md:flex-row">
         <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight pr-5">
           <span className="text-orange-200">Descubra o</span> <br />{" "}
           <span className="text-orange-200">segredo</span> para <br />{" "}
@@ -45,7 +45,7 @@ export default function App() {
       </div>
 
       {/* QUAIS SÃO */}
-      <div className="py-16 px-4 sm:px-32 2xl:px-64 flex justify-between flex-col md:flex-row">
+      <div className="py-16 px-4 sm:px-32 2xl:px-50 flex justify-between flex-col md:flex-row">
         <h1 className="text-subtitle sm:text-title font-bold text-white leading-tight pr-5">
           Quais são as <br />
           <span className="text-orange-200">
